@@ -16,7 +16,11 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
+<<<<<<< HEAD
+					<string>Login</string>
+=======
 					<string>RecipePage</string>
+>>>>>>> a0eadd5dc743de087559511c1f41311f435eb830
 				</dict>
 			</array>
 		</dict>
