@@ -22,7 +22,7 @@
 		3FCD9F652BF4AF1900B1AC08 /* GroSelfNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD9F642BF4AF1900B1AC08 /* GroSelfNewUITestsLaunchTests.swift */; };
 		3FCD9F722BF4AF5300B1AC08 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD9F712BF4AF5300B1AC08 /* Login.storyboard */; };
 		3FCD9F7C2BF4AFAD00B1AC08 /* Grocer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD9F7B2BF4AFAD00B1AC08 /* Grocer.storyboard */; };
-		B7ACB7002BF5C48A003439F2 /* favourite.Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ACB6FF2BF5C48A003439F2 /* favourite.Page.storyboard */; };
+		B7ACB7002BF5C48A003439F2 /* favouritePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ACB6FF2BF5C48A003439F2 /* favouritePage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		3FCD9F642BF4AF1900B1AC08 /* GroSelfNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroSelfNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FCD9F712BF4AF5300B1AC08 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		3FCD9F7B2BF4AFAD00B1AC08 /* Grocer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Grocer.storyboard; sourceTree = "<group>"; };
-		B7ACB6FF2BF5C48A003439F2 /* favourite.Page.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = favourite.Page.storyboard; sourceTree = SOURCE_ROOT; };
+		B7ACB6FF2BF5C48A003439F2 /* favouritePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = favouritePage.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +168,7 @@
 		3FCD9F7F2BF4AFC400B1AC08 /* Zarif */ = {
 			isa = PBXGroup;
 			children = (
-				B7ACB6FF2BF5C48A003439F2 /* favourite.Page.storyboard */,
+				B7ACB6FF2BF5C48A003439F2 /* favouritePage.storyboard */,
 			);
 			path = Zarif;
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 				31AAD7F32BF5056200DFBBDA /* BookingPage.storyboard in Resources */,
 				31AAD7F52BF5058000DFBBDA /* SettingsPage.storyboard in Resources */,
 				3FCD9F722BF4AF5300B1AC08 /* Login.storyboard in Resources */,
-				B7ACB7002BF5C48A003439F2 /* favourite.Page.storyboard in Resources */,
+				B7ACB7002BF5C48A003439F2 /* favouritePage.storyboard in Resources */,
 				31AAD7F92BF5061200DFBBDA /* RecipePage.storyboard in Resources */,
 				3FCD9F4B2BF4AF1900B1AC08 /* Assets.xcassets in Resources */,
 				3FCD9F7C2BF4AFAD00B1AC08 /* Grocer.storyboard in Resources */,
