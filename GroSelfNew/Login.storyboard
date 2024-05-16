@@ -207,7 +207,6 @@
                                         <color key="tintColor" red="0.30980393290000002" green="0.42352938649999999" blue="0.34117650989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="REGISTER">
-                                            <backgroundConfiguration key="background"/>
                                             <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
                                         </buttonConfiguration>
                                     </button>
@@ -220,7 +219,7 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Brl-n3-8FY">
-                                <rect key="frame" x="-165" y="0.0" width="674" height="416"/>
+                                <rect key="frame" x="-151" y="0.0" width="674" height="416"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
