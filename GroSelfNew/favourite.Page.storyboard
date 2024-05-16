@@ -55,18 +55,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food4" translatesAutoresizingMaskIntoConstraints="NO" id="lq9-Ui-iHA">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DEy-VW-8xL">
                                                     <rect key="frame" x="8" y="8" width="377" height="134"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="100" id="lel-fP-9qP"/>
-                                                    </constraints>
-                                                </imageView>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="filled">
+                                                        <backgroundConfiguration key="background" image="food8"/>
+                                                    </buttonConfiguration>
+                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="lq9-Ui-iHA" firstAttribute="leading" secondItem="4Fm-CI-ulQ" secondAttribute="leading" constant="8" id="C76-S3-HjQ"/>
-                                                <constraint firstItem="lq9-Ui-iHA" firstAttribute="top" secondItem="4Fm-CI-ulQ" secondAttribute="top" constant="8" id="U5e-dm-fjj"/>
-                                                <constraint firstAttribute="trailing" secondItem="lq9-Ui-iHA" secondAttribute="trailing" constant="8" id="ou2-p4-PgH"/>
-                                                <constraint firstAttribute="bottom" secondItem="lq9-Ui-iHA" secondAttribute="bottom" constant="8" id="tla-9b-QCy"/>
+                                                <constraint firstItem="DEy-VW-8xL" firstAttribute="top" secondItem="4Fm-CI-ulQ" secondAttribute="top" constant="8" id="1nS-MS-FDI"/>
+                                                <constraint firstAttribute="trailing" secondItem="DEy-VW-8xL" secondAttribute="trailing" constant="8" id="LqJ-zX-xlR"/>
+                                                <constraint firstAttribute="bottom" secondItem="DEy-VW-8xL" secondAttribute="bottom" constant="8" id="MD8-Bj-pMv"/>
+                                                <constraint firstItem="DEy-VW-8xL" firstAttribute="leading" secondItem="4Fm-CI-ulQ" secondAttribute="leading" constant="8" id="kMZ-Cv-0Eu"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -83,7 +84,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="food4" width="1512" height="2016"/>
+        <image name="food8" width="1504.5" height="426"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
