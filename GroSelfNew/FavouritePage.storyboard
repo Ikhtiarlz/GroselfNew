@@ -8,15 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Team Detail View Controller-->
         <scene sceneID="Mcj-fm-WuP">
             <objects>
-                <viewController id="Yww-cC-FZ3" customClass="ViewController" customModule="chefinion" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yww-cC-FZ3" customClass="TeamDetailViewController" customModule="chefinion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="IE9-Y6-0KB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="VVq-J7-atf">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="VVq-J7-atf">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="133"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kd8-za-Hz9">
